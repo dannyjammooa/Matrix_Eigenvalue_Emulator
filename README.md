@@ -17,3 +17,6 @@ This repository contains code for the Matrix Eigenvale Emulator (MEE).
 3.The files Simulated_annealing.py, Gradient_descent.py, and SAST_GD.py uses the fun.py and schedule.py to implement the different optimization algorithms.
   - parallel_"", applies an aglorithm with different schedules in parallel
   - random_initial, runs parrallel_"" multiple times in parallel
+
+4. The files toy_model_"" contains notebooks that runs Simulated_annealing.py, Gradient_descent.py, and SAST_GD.py for the system H=H_A+H_B*dt and trains M=A+B*dt
+  - However, the "".py files contain code for the system e^(-iHdt)=e^(-iH_Adt)e^(-iH_Bdt)
