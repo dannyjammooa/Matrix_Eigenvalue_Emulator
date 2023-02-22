@@ -20,3 +20,8 @@ This repository contains code for the Matrix Eigenvale Emulator (MEE).
 
 4. The files toy_model_"" contains notebooks that runs Simulated_annealing.py, Gradient_descent.py, and SAST_GD.py for the system H=H_A+H_B*dt and trains M=A+B*dt
   - However, the "".py files contain code for the system e^(-iHdt)=e^(-iH_Adt)e^(-iH_Bdt)
+
+5. Goals of this project
+  - Original goal is to reduce trotter error from quantum computers (QC) by using data obtained from QC to train an emulator that models the system. 
+  - There might be a tie in with the eigenvector continuation method
+  - Explore the Simulated annealing with simulated tempering and gradient descent algorithm further
